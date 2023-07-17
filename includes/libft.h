@@ -6,7 +6,7 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/07 09:29:59 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/07/17 09:05:16 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:27:14 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,12 +51,6 @@ int			ft_isascii(int c);
  * Returns 1 if yes, 0 if not
 */
 int			ft_isprint(int c);
-
-/**
- * Identifies if character is a whitespace
- * Returns 1 if yes, 0 if not
-*/
-int			ft_isspace(int c);
 
 /**
  * Takes the given string and converts it to an integer

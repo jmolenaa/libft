@@ -6,11 +6,16 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/18 16:52:37 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:31:59 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:34:59 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Frees the given node, it's content using 'f' and all the succesive nodes
+ * Sets the pointer to the first node to NULL
+*/
 
 static void	clear(t_list *temp, void (*del)(void *))
 {

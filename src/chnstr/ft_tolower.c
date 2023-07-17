@@ -6,9 +6,14 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/12 09:28:25 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2022/10/20 13:46:37 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:29:38 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
+
+/**
+ * Converts an upper-case letter to a lower-case letter
+ * Returns the lower-case letter or the argument if it remained unchanged
+*/
 
 int	ft_tolower(int c)
 {

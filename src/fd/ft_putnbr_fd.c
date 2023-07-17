@@ -6,11 +6,15 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/17 11:10:24 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:17:44 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:33:58 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
+/**
+ * Writes the integer 'n' to the given file descriptor
+*/
 
 static void	writenbr(long int nbr, int fd, int digits)
 {

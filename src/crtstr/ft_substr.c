@@ -6,11 +6,17 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/14 12:26:33 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/07/12 10:20:44 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:30:55 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Creates a new substring from 's'
+ * The string starts at index 'start' and is of maximum size 'len'
+ * Returns a pointer to the new string or NULL on malloc failure
+*/
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

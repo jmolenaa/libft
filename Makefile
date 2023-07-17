@@ -1,5 +1,5 @@
 NAME = libft.a
-SRC_FILES_LIBFT =	is/ft_isalpha.c is/ft_isdigit.c is/ft_isalnum.c is/ft_isascii.c is/ft_isprint.c is/ft_isspace.c\
+SRC_FILES_LIBFT =	is/ft_isalpha.c is/ft_isdigit.c is/ft_isalnum.c is/ft_isascii.c is/ft_isprint.c\
 					str/ft_strlen.c str/ft_strchr.c str/ft_strrchr.c str/ft_strncmp.c str/ft_strnstr.c str/ft_atoi.c\
 					chnstr/ft_strlcpy.c chnstr/ft_strlcat.c chnstr/ft_toupper.c chnstr/ft_tolower.c chnstr/ft_striteri.c\
 					mem/ft_bzero.c mem/ft_memcpy.c mem/ft_memmove.c mem/ft_memset.c mem/ft_memchr.c mem/ft_memcmp.c\

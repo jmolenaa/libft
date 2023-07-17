@@ -6,11 +6,15 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/18 11:55:39 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2022/10/18 20:17:52 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:32:52 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Returns the lst node in the list
+*/
 
 t_list	*ft_lstlast(t_list *lst)
 {

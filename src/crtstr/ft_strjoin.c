@@ -6,11 +6,16 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/14 14:07:51 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:31:25 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:30:35 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Creates a new string resulting from concatenation of 's1' and 's2'
+ * Returns a pointer to the new string or NULL on malloc failure
+*/
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

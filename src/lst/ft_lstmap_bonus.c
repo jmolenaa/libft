@@ -6,11 +6,17 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/18 19:32:40 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:32:12 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:35:10 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Creates a new list and fills it with the result of
+ * the function 'f' applied to the content of every node
+ * Returns a pointer to the new list or NULL on malloc failure
+*/
 
 static t_list	*recur(t_list *l, void *(*f)(void *), \
 void (*d)(void *), t_list *n)

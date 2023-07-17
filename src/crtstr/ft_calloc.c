@@ -6,11 +6,16 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/12 14:51:08 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:03:45 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:29:45 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+
+/**
+ * Allocates 'count' * 'size' memory and sets the bytes to zero
+\ * Returns a pointer to the allocated memory or NULL on malloc failure
+*/
 
 void	*ft_calloc(size_t count, size_t size)
 {

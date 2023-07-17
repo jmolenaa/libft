@@ -6,11 +6,16 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/12 10:34:35 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:21:19 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:28:11 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>
+
+/**
+ * Locates the first occurence of the given character in the given string
+ * Returns a pointer to the located character or NULL if it doesnt appear
+*/
 
 char	*ft_strchr(const char *s, int c)
 {

@@ -6,11 +6,18 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/11 14:01:50 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:01:53 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:29:16 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Appends 'src' to the end of 'dst'
+ * Appends at most 'dstsize' - lenght of 'dst' - 1 characters
+ * It then NUL terminates the resultign str
+ * It returns the lenght of 'dst' plus the length of 'src'
+*/
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {

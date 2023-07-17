@@ -6,11 +6,17 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/17 08:41:05 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:32:51 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:30:42 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Creates a new string and fills it with the results of the
+ * application of function 'f' on each character of string 's'
+ * Returns a pointer to the new string or NULL on malloc failure
+*/
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

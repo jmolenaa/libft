@@ -6,11 +6,16 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/12 19:10:59 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/07/12 10:01:19 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:30:27 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Creates a copy of string 's1'
+ * Returns a pointer to the copied string or NULL on malloc failure
+*/
 
 char	*ft_strdup(const char *s1)
 {

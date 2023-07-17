@@ -6,11 +6,17 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/14 15:01:38 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2022/10/20 18:03:39 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:30:49 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Creates a string resulting from the removal of the characters specified
+ * in 'set' from the the string 's'
+ * Returns a pointer to the new string or NULL on malloc failure
+*/
 
 char	*ft_strtrim(char const *s1, char const *set)
 {

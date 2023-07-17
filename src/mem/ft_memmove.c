@@ -6,11 +6,17 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/11 12:15:34 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:20:51 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:31:35 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>
+
+/**
+ * Copies 'n' bytes from memory 'src' to 'dst'
+ * The memory may overlap
+ * Returns the original value of 'dst'
+*/
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

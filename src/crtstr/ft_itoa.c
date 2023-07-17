@@ -6,11 +6,16 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/17 07:27:05 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:12:02 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:34:27 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+
+/**
+ * Converts the given integer to a string
+ * Returns an allocated string or NULL on malloc failure
+*/
 
 static int	countdigits(int n)
 {

@@ -6,11 +6,17 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/15 11:31:13 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:31:15 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:34:20 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * Creates an array of strings resulting from splitting 's' on the char 'c'
+ * The array and the pointers are allocate
+ * Returns the array or NULL on malloc failure
+*/
 
 static size_t	countwords(char const *s, char c)
 {

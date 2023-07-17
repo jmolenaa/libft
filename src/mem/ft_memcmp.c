@@ -6,11 +6,18 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/12 12:23:50 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2023/01/25 12:20:35 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:31:16 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>
+
+/**
+ * Compares the memory pointed to by 's1' and 's2'
+ * Stops when memory differs or when 'n' bytes are compared
+ * Returns an integer greater, equal or less than 0 according as
+ * 's1' is greater than, equal to, or less than 's2'
+*/
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

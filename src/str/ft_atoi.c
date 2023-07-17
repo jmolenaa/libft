@@ -6,9 +6,13 @@
 /*   By: jmolenaa <jmolenaa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/10/12 14:04:48 by jmolenaa      #+#    #+#                 */
-/*   Updated: 2022/10/12 14:38:29 by jmolenaa      ########   odam.nl         */
+/*   Updated: 2023/07/17 09:28:00 by jmolenaa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
+
+/**
+ * Takes the given string and converts it to an integer
+*/
 
 int	ft_atoi(const char *str)
 {

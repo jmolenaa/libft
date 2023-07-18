@@ -5,6 +5,10 @@ The "Libft" project is about coding a C library that contains a collection of ge
 By creating this library, I gained a better understanding of standard functions, learnt to implement them, and became proficient in their usage.  
 The library will be utilized in several projects during my curriculum, making it an essential asset for a successful cursus.
 
+## Compilation
+
+To compile the library clone the repository, go intro the folder and type make. To use it just link it during compilation including the header file.
+
 ### Function table
 
 | Function name |

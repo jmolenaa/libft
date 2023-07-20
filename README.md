@@ -7,7 +7,7 @@ The library will be utilized in several projects during my curriculum, making it
 
 ## Compilation
 
-To compile the library clone the repository, go intro the folder and type make. To use it just link it during compilation including the header file.
+To compile the library clone the repository, go into the folder and type make. To use it just link it during compilation including the header file.
 
 ### Function table
 
